@@ -317,7 +317,7 @@ button {
 
     object-fit:cover;
 
-    z-index:0;
+    object-position:center 58%;
 
 }
 
