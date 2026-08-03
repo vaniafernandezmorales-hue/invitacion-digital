@@ -1,1 +1,305 @@
+/* =========================
+   XV AÑOS EVELYN
+   Butterfly Garden
+========================= */
 
+
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FAF7F2;
+    color: #555;
+}
+
+
+/* Contenedor principal */
+
+.invitation {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* =========================
+        PORTADA
+========================= */
+
+.hero {
+
+    min-height: 100vh;
+    width: 100%;
+
+    background:
+    linear-gradient(
+        rgba(250,247,242,0.75),
+        rgba(250,247,242,0.95)
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+/* Contenido central */
+
+.hero-content {
+
+    text-align: center;
+    z-index: 2;
+
+    animation: aparecer 2s ease forwards;
+
+}
+
+
+/* Texto pequeño */
+
+.small-title {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 1.8rem;
+
+    letter-spacing: 3px;
+
+    color: #C98B9B;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* Nombre */
+
+h1 {
+
+    font-family: 'Great Vibes', cursive;
+
+    font-size: 6rem;
+
+    font-weight: normal;
+
+    color: #D98CA3;
+
+    line-height: 1;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* Fecha */
+
+.date {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 1.6rem;
+
+    color: #9B7B53;
+
+    margin-bottom: 45px;
+
+}
+
+
+/* Botón */
+
+button {
+
+    border: none;
+
+    background: #D4AF37;
+
+    color: white;
+
+    padding: 15px 40px;
+
+    border-radius: 50px;
+
+    font-size: 1rem;
+
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    box-shadow: 0 10px 25px rgba(212,175,55,.3);
+
+    transition: .3s;
+
+}
+
+
+button:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+
+/* =========================
+       MARIPOSAS
+========================= */
+
+
+.butterfly {
+
+    position: absolute;
+
+    font-size: 3rem;
+
+    opacity: .7;
+
+    animation: volar 8s infinite ease-in-out;
+
+}
+
+
+
+.butterfly-one {
+
+    top: 15%;
+    left: 15%;
+
+}
+
+
+.butterfly-two {
+
+    top: 30%;
+    right: 15%;
+
+    animation-delay: 2s;
+
+}
+
+
+.butterfly-three {
+
+    bottom: 15%;
+    left: 40%;
+
+    animation-delay: 4s;
+
+}
+
+
+
+/* Movimiento mariposas */
+
+
+@keyframes volar {
+
+
+0% {
+
+    transform:
+    translateY(0)
+    rotate(0deg);
+
+}
+
+
+50% {
+
+    transform:
+    translateY(-40px)
+    rotate(15deg);
+
+}
+
+
+100% {
+
+    transform:
+    translateY(0)
+    rotate(0deg);
+
+}
+
+
+}
+
+
+
+/* Entrada elegante */
+
+
+@keyframes aparecer {
+
+
+from {
+
+    opacity:0;
+
+    transform:
+    translateY(40px);
+
+}
+
+
+to {
+
+    opacity:1;
+
+    transform:
+    translateY(0);
+
+}
+
+
+}
+
+
+
+/* Adaptación celular */
+
+
+@media(max-width:600px){
+
+
+h1 {
+
+    font-size: 4.5rem;
+
+}
+
+
+.small-title {
+
+    font-size:1.4rem;
+
+}
+
+
+.date {
+
+    font-size:1.3rem;
+
+}
+
+
+button {
+
+    padding:
+    13px 35px;
+
+}
+
+
+}
