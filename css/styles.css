@@ -91,9 +91,9 @@ body {
 
 h1 {
 
-    font-family: 'Style Script', cursive;
+    font-family: 'Ballet', cursive;
 
-    font-size: 100px;
+    font-size: 95px;
 
     font-weight: 400;
 
@@ -101,7 +101,25 @@ h1 {
 
     line-height: 1;
 
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+
+    text-shadow: 0 2px 8px rgba(255,255,255,.8);
+
+}
+
+h1 {
+
+    background:
+    linear-gradient(
+    90deg,
+    #b8b8b8,
+    #ffffff,
+    #a8a8a8
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
 
 }
 
