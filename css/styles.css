@@ -75,15 +75,17 @@ body {
 
 .small-title {
 
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
 
-    font-size: 1.8rem;
+    font-size:45px;
 
-    letter-spacing: 3px;
+    font-weight:400;
 
-    color: #C98B9B;
+    letter-spacing: 2px;
 
-    margin-bottom: 10px;
+    color: #555;
+
+    margin-bottom: 15px;
 
 }
 
@@ -92,13 +94,13 @@ body {
 
 h1 {
 
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Style Script', cursive;
 
-    font-size: 6rem;
+    font-size: 100px;
 
-    font-weight: normal;
+    font-weight: 400;
 
-    color: #D98CA3;
+    color: #C8C8C8;
 
     line-height: 1;
 
@@ -111,13 +113,17 @@ h1 {
 
 .date {
 
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
 
-    font-size: 1.6rem;
+    font-size: 60px;
 
-    color: #9B7B53;
+    font-weight:300; 
+   
+    color: #555;
 
     margin-bottom: 45px;
+
+    text-shadow: 0 2px 8px rgba(255,255,.8);
 
 }
 
@@ -128,7 +134,7 @@ button {
 
     border: none;
 
-    background: #D4AF37;
+    background: #D98CA3;
 
     color: white;
 
@@ -317,7 +323,7 @@ button {
 
     object-fit:cover;
 
-    object-position:center 58%;
+    object-position:center 62%;
 
 }
 
