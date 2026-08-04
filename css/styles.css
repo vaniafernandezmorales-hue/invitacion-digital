@@ -102,6 +102,16 @@ text-align:center;
 
 width:90%;
 
+background:
+linear-gradient(
+rgba(255,255,255,0.05),
+rgba(255,255,255,0.15)
+);
+
+padding:20px;
+
+border-radius:20px;
+
 
 }
 
