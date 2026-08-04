@@ -338,23 +338,31 @@ font-size:22px;
 
 .card::before{
 
-content:"";
+    content:"";
 
-position:absolute;
+    position:absolute;
 
-inset:0;
+    width:320px;
 
-background-image:url("../assets/img/fondo-mariposas.png");
+    height:320px;
 
-background-repeat:no-repeat;
+    right:0;
 
-background-position:right bottom;
+    bottom:0;
 
-background-size:contain;
+    background-image:url("../assets/img/fondo-mariposas.png");
 
-opacity:.40;
+    background-repeat:no-repeat;
 
-pointer-events:none;
+    background-size:contain;
+
+    background-position:bottom right;
+
+    opacity:.55;
+
+    pointer-events:none;
+
+    z-index:1;
 
 }
 
