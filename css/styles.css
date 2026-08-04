@@ -265,3 +265,73 @@ font-size:22px;
 
 
 }
+
+.section-card{
+
+    background:#F8F4F2;
+
+    padding:90px 25px;
+
+}
+
+.card{
+
+    max-width:700px;
+
+    margin:auto;
+
+    background:white;
+
+    border-radius:30px;
+
+    padding:60px 40px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    text-align:center;
+
+}
+
+.card h2{
+
+    font-family:'Ballet', cursive;
+
+    font-size:42px;
+
+    color:#D98CA3;
+
+    margin-bottom:25px;
+
+}
+
+.names{
+
+    font-family:'Poppins', sans-serif;
+
+    font-size:22px;
+
+    line-height:2;
+
+    color:#555;
+
+}
+
+.names span{
+
+    font-size:28px;
+
+    color:#D98CA3;
+
+}
+
+.divider{
+
+    width:120px;
+
+    height:2px;
+
+    background:#F1C6D4;
+
+    margin:50px auto;
+
+}
