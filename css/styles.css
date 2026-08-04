@@ -372,53 +372,53 @@ z-index:2;
 
 .intro{
 
-font-size:32px;
+font-size:42px;
 
 font-family:'Ballet', cursive;
 
 color:#D78DA4;
 
-margin-bottom:8px;
+margin-bottom:5px;
 
 }
 
 .subtitle{
 
-font-size:20px;
+font-size:32px;
 
-color:#666;
+color:#7A7A7A;
 
 margin-bottom:50px;
 
-font-family:'Poppins';
+font-family:'Ballet', cursive;
 
 }
 
 h3{
 
-font-family:'Ballet', cursive;
+font-family:'Poppins', sans-serif;
 
-font-size:52px;
+font-size:24px;
 
-font-weight:400;
+font-weight:600;
 
 line-height:1.2;
 
-color:#D78DA4;
+color:#555;
 
-margin:20px 0;
+margin:1.8;
 
 }
 
 .ampersand{
 
-font-size:42px;
+font-size:45px;
 
-color:#C7A46C;
+color:#D8A86B;
 
-margin:15px 0;
+margin:18px 0;
 
-font-family:'Cormorant Garamond', serif;
+font-family:'Ballet', cursive;
 
 }
 
