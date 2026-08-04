@@ -342,21 +342,17 @@ content:"";
 
 position:absolute;
 
-top:0;
+inset:0;
 
-left:0;
-
-right:0;
-
-bottom:0;
-
-background:url("../assets/img/fondo-mariposas.png");
-
-background-size:cover;
+background-image:url("../assets/img/fondo-mariposas.png");
 
 background-repeat:no-repeat;
 
-opacity:.25;
+background-position:right bottom;
+
+background-size:contain;
+
+opacity:.40;
 
 pointer-events:none;
 
