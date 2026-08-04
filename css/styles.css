@@ -140,7 +140,7 @@ h1{
 
 font-family:'Ballet', cursive;
 
-font-size:25px;
+font-size:10px;
 
 font-weight:400;
 
@@ -229,32 +229,6 @@ button:hover{
 
 
 transform:translateY(-4px);
-
-
-}
-
-
-
-
-
-/* MARIPOSAS */
-
-
-.butterfly{
-
-
-position:absolute;
-
-z-index:2;
-
-
-font-size:45px;
-
-
-opacity:.8;
-
-
-animation:flotar 6s infinite ease-in-out;
 
 
 }
