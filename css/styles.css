@@ -94,24 +94,19 @@ z-index:1;
 
 .content{
 
-position:relative;
+position:absolute;
+
+top:58%;
+
+left:50%;
+
+transform:translate(-50%, -50%);
 
 z-index:3;
 
 text-align:center;
 
 width:90%;
-
-background:
-linear-gradient(
-rgba(255,255,255,0.05),
-rgba(255,255,255,0.15)
-);
-
-padding:20px;
-
-border-radius:20px;
-
 
 }
 
@@ -128,7 +123,7 @@ letter-spacing:5px;
 
 color:#ffffff;
 
-text-shadow:0 2px 8px rgba(0,0,0,.35);
+text-shadow:0 2px 3px rgba(0,0,0,.35);
 
 font-weight:400;
 
@@ -143,32 +138,20 @@ margin-bottom:10px;
 
 h1{
 
-
 font-family:'Ballet', cursive;
 
-font-size:60px;
+font-size:55px;
 
 font-weight:400;
 
+color:white;
 
-background:
-linear-gradient(
-90deg,
-#777777,
-#b5b5b5,
-#666666
-);
+line-height:1.15;
 
+margin-bottom:20px;
 
--webkit-background-clip:text;
-
--webkit-text-fill-color:transparent;
-text-shadow: 0 3px 10px rgba(0,0,0,.35);
-
-line-height:1;
-
-margin-bottom:25px;
-
+text-shadow:
+0 2px 3px rgba(0,0,0,.75);
 
 }
 
@@ -189,7 +172,7 @@ font-weight:300;
 
 color:#ffffff;
 
-text-shadow:0 2px 8px rgba(0,0,,0,.45);
+text-shadow:0 2px 3px rgba(0,0,,0,.45);
 
 
 letter-spacing:2px;
